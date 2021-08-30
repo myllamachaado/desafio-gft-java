@@ -14,11 +14,6 @@ public class ExercicioAnimais {
         soma += Xereta.quantidadeRacao();
         soma+= VictorHugo.quantidadeRacao();
 
-        System.out.println(Daphne.quantidadeRacao());
-        System.out.println(Artemis.quantidadeRacao());
-        System.out.println(Xereta.quantidadeRacao());
-        System.out.println(VictorHugo.quantidadeRacao());
-
         System.out.printf("A média de ração consumida pelos animais foi: " + soma + "g");
 
     }
