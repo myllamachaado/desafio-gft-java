@@ -25,7 +25,7 @@ public class Gato implements InterfaceAnimal{
             return 10 * this.getPeso();
         }
         else{
-            return 15 * this.getPeso();
+            return 13 * this.getPeso();
         }
     }
 }

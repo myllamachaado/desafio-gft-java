@@ -2,7 +2,7 @@ package EX1;
 
 public class ExercicioAnimais {
     public static void main(String[] args){
-        float soma;
+        float soma = 0;
 
         Gato Daphne = new Gato("Daphne", 20f);
         Gato Artemis = new Gato("Artemis", 3f);
@@ -14,8 +14,12 @@ public class ExercicioAnimais {
         soma += Xereta.quantidadeRacao();
         soma+= VictorHugo.quantidadeRacao();
 
+        System.out.println(Daphne.quantidadeRacao());
+        System.out.println(Artemis.quantidadeRacao());
+        System.out.println(Xereta.quantidadeRacao());
+        System.out.println(VictorHugo.quantidadeRacao());
 
-        System.out.printf("A média de ração consumida pelos animais foi: " + soma/4);
+        System.out.printf("A média de ração consumida pelos animais foi: " + soma + "g");
 
     }
 }
