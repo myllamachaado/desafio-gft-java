@@ -9,13 +9,12 @@ public class ExercicioDivisao {
 
         Divisao divisivel = new Divisao();
         int num1;
-        ArrayList<Integer> retorno = new ArrayList<>();
+        ArrayList<Integer> retorno;
 
         System.out.println("Insira um número: ");
         Scanner entrada = new Scanner(System.in);
         try{
             num1 = entrada.nextInt();
-            //System.out.println("O número inseriudo é:" + num1);
             retorno = divisivel.validaDivisao(num1);
 
             if (retorno.size() > 0){

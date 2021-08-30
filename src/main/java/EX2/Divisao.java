@@ -1,12 +1,6 @@
 package EX2;
-
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.ArrayList;
 
-@Getter
-@Setter
 public class Divisao {
 
     private ArrayList<Integer> retorno = new ArrayList();
