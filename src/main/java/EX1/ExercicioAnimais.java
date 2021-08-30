@@ -14,7 +14,7 @@ public class ExercicioAnimais {
         soma += Xereta.quantidadeRacao();
         soma+= VictorHugo.quantidadeRacao();
 
-        System.out.printf("A média de ração consumida pelos animais foi: " + soma + "g");
+        System.out.printf("A soma de ração consumida pelos animais foi: " + soma + "g");
 
     }
 }

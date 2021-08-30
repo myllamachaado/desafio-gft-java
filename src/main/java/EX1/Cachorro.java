@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Cachorro implements InterfaceAnimal{
+public class Cachorro implements Animal {
     private String nome;
     private float peso;
 
@@ -16,7 +16,7 @@ public class Cachorro implements InterfaceAnimal{
 
 
     public String som() {
-        return "Au au .....";
+        return "Au au au au .....";
     }
 
     public float quantidadeRacao() {

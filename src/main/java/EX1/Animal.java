@@ -1,6 +1,6 @@
 package EX1;
 
-public interface InterfaceAnimal {
+public interface Animal {
 
     public abstract String som();
     public abstract float quantidadeRacao();

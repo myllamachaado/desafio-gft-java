@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Gato implements InterfaceAnimal{
+public class Gato implements Animal {
 
     private String nome;
     private float peso;
